@@ -1,0 +1,95 @@
+/* body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+}
+/* For mobile : Cette largueur s'applique aux ecrans de moins de 768px
+div.card {
+    background-color: white;
+    margin: 40px 300px 40px 300px;
+    padding: 0px 8px 20px 8px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+h1, .card_element {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.centre {
+    text-align: center;
+    width: 100%;
+}
+
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -15px;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-weight: bold;
+   
+}
+
+div.categorie {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+div.separateur {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.flex {
+    position: relative;
+    
+}
+div img{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray; 
+}
+table.info {
+    position: absolute; 
+    bottom:0; 
+    width: 100%; 
+    color: white; 
+    background-color: #6C829DC0; 
+    height: 80px
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.best-plante{
+    background-color: red;
+    flex-wrap: wrap;
+    height: 500px;
+    display: flex;
+}
+.plante-box{
+    position: relative;
+    min-width: 350px;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    flex: 1;
+}
+.plante1{
+    background-color: white;
+}
+.plante2{
+    background-image: url(images/stylo-tenue-main-masculine.jpg);
+}
+.title{
+    background-color: blueviolet;
+}
